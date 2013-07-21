@@ -7,57 +7,78 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		EC66B0E1179B46CA005FE707 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC66B0E0179B46CA005FE707 /* Cocoa.framework */; };
-		EC66B0EB179B46CA005FE707 /* BFAutoLayoutDebugger.m in Sources */ = {isa = PBXBuildFile; fileRef = EC66B0EA179B46CA005FE707 /* BFAutoLayoutDebugger.m */; };
-		EC66B0F2179B46CA005FE707 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC66B0F1179B46CA005FE707 /* XCTest.framework */; };
-		EC66B0F3179B46CA005FE707 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC66B0E0179B46CA005FE707 /* Cocoa.framework */; };
-		EC66B0F6179B46CA005FE707 /* libBFAutoLayoutDebugger.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EC66B0DD179B46CA005FE707 /* libBFAutoLayoutDebugger.a */; };
-		EC66B0FC179B46CA005FE707 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EC66B0FA179B46CA005FE707 /* InfoPlist.strings */; };
-		EC66B0FE179B46CA005FE707 /* BFAutoLayoutDebuggerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC66B0FD179B46CA005FE707 /* BFAutoLayoutDebuggerTests.m */; };
+		EC66B10C179B4764005FE707 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC66B0E0179B46CA005FE707 /* Cocoa.framework */; };
+		EC66B112179B4764005FE707 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EC66B110179B4764005FE707 /* InfoPlist.strings */; };
+		EC66B114179B4764005FE707 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EC66B113179B4764005FE707 /* main.m */; };
+		EC66B118179B4764005FE707 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = EC66B116179B4764005FE707 /* Credits.rtf */; };
+		EC66B11B179B4764005FE707 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EC66B11A179B4764005FE707 /* AppDelegate.m */; };
+		EC66B11E179B4764005FE707 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC66B11C179B4764005FE707 /* MainMenu.xib */; };
+		EC66B120179B4764005FE707 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC66B11F179B4764005FE707 /* Images.xcassets */; };
+		ECA9CBBC179C156F00AE8CAF /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC66B0E0179B46CA005FE707 /* Cocoa.framework */; };
+		ECA9CBC2179C156F00AE8CAF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ECA9CBC0179C156F00AE8CAF /* InfoPlist.strings */; };
+		ECA9CBE6179C15EC00AE8CAF /* BFAutoLayoutDebugger.h in Headers */ = {isa = PBXBuildFile; fileRef = ECA9CBDF179C15EC00AE8CAF /* BFAutoLayoutDebugger.h */; };
+		ECA9CBE7179C15EC00AE8CAF /* BFAutoLayoutDebugger.m in Sources */ = {isa = PBXBuildFile; fileRef = ECA9CBE0179C15EC00AE8CAF /* BFAutoLayoutDebugger.m */; };
+		ECA9CBE8179C15EC00AE8CAF /* BFAutoLayoutDebuggerWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = ECA9CBE1179C15EC00AE8CAF /* BFAutoLayoutDebuggerWindow.xib */; };
+		ECA9CBE9179C15EC00AE8CAF /* BFAutoLayoutDebuggerWindowController.h in Headers */ = {isa = PBXBuildFile; fileRef = ECA9CBE2179C15EC00AE8CAF /* BFAutoLayoutDebuggerWindowController.h */; };
+		ECA9CBEA179C15EC00AE8CAF /* BFAutoLayoutDebuggerWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECA9CBE3179C15EC00AE8CAF /* BFAutoLayoutDebuggerWindowController.m */; };
+		ECA9CBEF179C169A00AE8CAF /* BFAutoLayoutDebugger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECA9CBBB179C156F00AE8CAF /* BFAutoLayoutDebugger.framework */; };
+		ECA9CBF2179C1F6C00AE8CAF /* ColorView.m in Sources */ = {isa = PBXBuildFile; fileRef = ECA9CBF0179C1F6C00AE8CAF /* ColorView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		EC66B0F4179B46CA005FE707 /* PBXContainerItemProxy */ = {
+		ECA9CBED179C169600AE8CAF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = EC66B0D5179B46CA005FE707 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = EC66B0DC179B46CA005FE707;
+			remoteGlobalIDString = ECA9CBBA179C156F00AE8CAF;
 			remoteInfo = BFAutoLayoutDebugger;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		EC66B0DD179B46CA005FE707 /* libBFAutoLayoutDebugger.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libBFAutoLayoutDebugger.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC66B0E0179B46CA005FE707 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		EC66B0E3179B46CA005FE707 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		EC66B0E4179B46CA005FE707 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		EC66B0E5179B46CA005FE707 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
-		EC66B0E8179B46CA005FE707 /* BFAutoLayoutDebugger-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BFAutoLayoutDebugger-Prefix.pch"; sourceTree = "<group>"; };
-		EC66B0E9179B46CA005FE707 /* BFAutoLayoutDebugger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BFAutoLayoutDebugger.h; sourceTree = "<group>"; };
-		EC66B0EA179B46CA005FE707 /* BFAutoLayoutDebugger.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BFAutoLayoutDebugger.m; sourceTree = "<group>"; };
-		EC66B0F0179B46CA005FE707 /* BFAutoLayoutDebuggerTests.xctest */ = {isa = PBXFileReference; explicitFileType = folder; includeInIndex = 0; path = BFAutoLayoutDebuggerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC66B0F1179B46CA005FE707 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		EC66B0F9179B46CA005FE707 /* BFAutoLayoutDebuggerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BFAutoLayoutDebuggerTests-Info.plist"; sourceTree = "<group>"; };
-		EC66B0FB179B46CA005FE707 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		EC66B0FD179B46CA005FE707 /* BFAutoLayoutDebuggerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BFAutoLayoutDebuggerTests.m; sourceTree = "<group>"; };
+		EC66B10B179B4764005FE707 /* Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC66B10F179B4764005FE707 /* Demo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Demo-Info.plist"; sourceTree = "<group>"; };
+		EC66B111179B4764005FE707 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EC66B113179B4764005FE707 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EC66B115179B4764005FE707 /* Demo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Demo-Prefix.pch"; sourceTree = "<group>"; };
+		EC66B117179B4764005FE707 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		EC66B119179B4764005FE707 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EC66B11A179B4764005FE707 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EC66B11D179B4764005FE707 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		EC66B11F179B4764005FE707 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		ECA9CBBB179C156F00AE8CAF /* BFAutoLayoutDebugger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BFAutoLayoutDebugger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECA9CBBF179C156F00AE8CAF /* BFAutoLayoutDebugger-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BFAutoLayoutDebugger-Info.plist"; sourceTree = "<group>"; };
+		ECA9CBC1179C156F00AE8CAF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ECA9CBC3179C156F00AE8CAF /* BFAutoLayoutDebugger-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BFAutoLayoutDebugger-Prefix.pch"; sourceTree = "<group>"; };
+		ECA9CBDF179C15EC00AE8CAF /* BFAutoLayoutDebugger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BFAutoLayoutDebugger.h; sourceTree = "<group>"; };
+		ECA9CBE0179C15EC00AE8CAF /* BFAutoLayoutDebugger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BFAutoLayoutDebugger.m; sourceTree = "<group>"; };
+		ECA9CBE1179C15EC00AE8CAF /* BFAutoLayoutDebuggerWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BFAutoLayoutDebuggerWindow.xib; sourceTree = "<group>"; };
+		ECA9CBE2179C15EC00AE8CAF /* BFAutoLayoutDebuggerWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BFAutoLayoutDebuggerWindowController.h; sourceTree = "<group>"; };
+		ECA9CBE3179C15EC00AE8CAF /* BFAutoLayoutDebuggerWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BFAutoLayoutDebuggerWindowController.m; sourceTree = "<group>"; };
+		ECA9CBF0179C1F6C00AE8CAF /* ColorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorView.m; sourceTree = "<group>"; };
+		ECA9CBF1179C1F6C00AE8CAF /* ColorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorView.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		EC66B0DA179B46CA005FE707 /* Frameworks */ = {
+		EC66B108179B4764005FE707 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC66B0E1179B46CA005FE707 /* Cocoa.framework in Frameworks */,
+				ECA9CBEF179C169A00AE8CAF /* BFAutoLayoutDebugger.framework in Frameworks */,
+				EC66B10C179B4764005FE707 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EC66B0ED179B46CA005FE707 /* Frameworks */ = {
+		ECA9CBB7179C156F00AE8CAF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC66B0F3179B46CA005FE707 /* Cocoa.framework in Frameworks */,
-				EC66B0F6179B46CA005FE707 /* libBFAutoLayoutDebugger.a in Frameworks */,
-				EC66B0F2179B46CA005FE707 /* XCTest.framework in Frameworks */,
+				ECA9CBBC179C156F00AE8CAF /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,8 +88,8 @@
 		EC66B0D4179B46CA005FE707 = {
 			isa = PBXGroup;
 			children = (
-				EC66B0E6179B46CA005FE707 /* BFAutoLayoutDebugger */,
-				EC66B0F7179B46CA005FE707 /* BFAutoLayoutDebuggerTests */,
+				EC66B10D179B4764005FE707 /* Demo */,
+				ECA9CBBD179C156F00AE8CAF /* BFAutoLayoutDebugger */,
 				EC66B0DF179B46CA005FE707 /* Frameworks */,
 				EC66B0DE179B46CA005FE707 /* Products */,
 			);
@@ -77,8 +98,8 @@
 		EC66B0DE179B46CA005FE707 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				EC66B0DD179B46CA005FE707 /* libBFAutoLayoutDebugger.a */,
-				EC66B0F0179B46CA005FE707 /* BFAutoLayoutDebuggerTests.xctest */,
+				EC66B10B179B4764005FE707 /* Demo.app */,
+				ECA9CBBB179C156F00AE8CAF /* BFAutoLayoutDebugger.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -103,38 +124,51 @@
 			name = "Other Frameworks";
 			sourceTree = "<group>";
 		};
-		EC66B0E6179B46CA005FE707 /* BFAutoLayoutDebugger */ = {
+		EC66B10D179B4764005FE707 /* Demo */ = {
 			isa = PBXGroup;
 			children = (
-				EC66B0E9179B46CA005FE707 /* BFAutoLayoutDebugger.h */,
-				EC66B0EA179B46CA005FE707 /* BFAutoLayoutDebugger.m */,
-				EC66B0E7179B46CA005FE707 /* Supporting Files */,
+				EC66B119179B4764005FE707 /* AppDelegate.h */,
+				EC66B11A179B4764005FE707 /* AppDelegate.m */,
+				ECA9CBF1179C1F6C00AE8CAF /* ColorView.h */,
+				ECA9CBF0179C1F6C00AE8CAF /* ColorView.m */,
+				EC66B11C179B4764005FE707 /* MainMenu.xib */,
+				EC66B11F179B4764005FE707 /* Images.xcassets */,
+				EC66B10E179B4764005FE707 /* Supporting Files */,
 			);
-			path = BFAutoLayoutDebugger;
+			path = Demo;
 			sourceTree = "<group>";
 		};
-		EC66B0E7179B46CA005FE707 /* Supporting Files */ = {
+		EC66B10E179B4764005FE707 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				EC66B0E8179B46CA005FE707 /* BFAutoLayoutDebugger-Prefix.pch */,
+				EC66B10F179B4764005FE707 /* Demo-Info.plist */,
+				EC66B110179B4764005FE707 /* InfoPlist.strings */,
+				EC66B113179B4764005FE707 /* main.m */,
+				EC66B115179B4764005FE707 /* Demo-Prefix.pch */,
+				EC66B116179B4764005FE707 /* Credits.rtf */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		EC66B0F7179B46CA005FE707 /* BFAutoLayoutDebuggerTests */ = {
+		ECA9CBBD179C156F00AE8CAF /* BFAutoLayoutDebugger */ = {
 			isa = PBXGroup;
 			children = (
-				EC66B0FD179B46CA005FE707 /* BFAutoLayoutDebuggerTests.m */,
-				EC66B0F8179B46CA005FE707 /* Supporting Files */,
+				ECA9CBDF179C15EC00AE8CAF /* BFAutoLayoutDebugger.h */,
+				ECA9CBE0179C15EC00AE8CAF /* BFAutoLayoutDebugger.m */,
+				ECA9CBE2179C15EC00AE8CAF /* BFAutoLayoutDebuggerWindowController.h */,
+				ECA9CBE3179C15EC00AE8CAF /* BFAutoLayoutDebuggerWindowController.m */,
+				ECA9CBBE179C156F00AE8CAF /* Supporting Files */,
 			);
-			path = BFAutoLayoutDebuggerTests;
+			path = BFAutoLayoutDebugger;
 			sourceTree = "<group>";
 		};
-		EC66B0F8179B46CA005FE707 /* Supporting Files */ = {
+		ECA9CBBE179C156F00AE8CAF /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				EC66B0F9179B46CA005FE707 /* BFAutoLayoutDebuggerTests-Info.plist */,
-				EC66B0FA179B46CA005FE707 /* InfoPlist.strings */,
+				ECA9CBE1179C15EC00AE8CAF /* BFAutoLayoutDebuggerWindow.xib */,
+				ECA9CBBF179C156F00AE8CAF /* BFAutoLayoutDebugger-Info.plist */,
+				ECA9CBC0179C156F00AE8CAF /* InfoPlist.strings */,
+				ECA9CBC3179C156F00AE8CAF /* BFAutoLayoutDebugger-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -142,23 +176,44 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		EC66B0DB179B46CA005FE707 /* Headers */ = {
+		ECA9CBB8179C156F00AE8CAF /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ECA9CBE9179C15EC00AE8CAF /* BFAutoLayoutDebuggerWindowController.h in Headers */,
+				ECA9CBE6179C15EC00AE8CAF /* BFAutoLayoutDebugger.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		EC66B0DC179B46CA005FE707 /* BFAutoLayoutDebugger */ = {
+		EC66B10A179B4764005FE707 /* Demo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EC66B101179B46CA005FE707 /* Build configuration list for PBXNativeTarget "BFAutoLayoutDebugger" */;
+			buildConfigurationList = EC66B132179B4764005FE707 /* Build configuration list for PBXNativeTarget "Demo" */;
 			buildPhases = (
-				EC66B0D9179B46CA005FE707 /* Sources */,
-				EC66B0DA179B46CA005FE707 /* Frameworks */,
-				EC66B0DB179B46CA005FE707 /* Headers */,
+				EC66B107179B4764005FE707 /* Sources */,
+				EC66B108179B4764005FE707 /* Frameworks */,
+				EC66B109179B4764005FE707 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECA9CBEE179C169600AE8CAF /* PBXTargetDependency */,
+			);
+			name = Demo;
+			productName = Demo;
+			productReference = EC66B10B179B4764005FE707 /* Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ECA9CBBA179C156F00AE8CAF /* BFAutoLayoutDebugger */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECA9CBDD179C157000AE8CAF /* Build configuration list for PBXNativeTarget "BFAutoLayoutDebugger" */;
+			buildPhases = (
+				ECA9CBB6179C156F00AE8CAF /* Sources */,
+				ECA9CBB7179C156F00AE8CAF /* Frameworks */,
+				ECA9CBB8179C156F00AE8CAF /* Headers */,
+				ECA9CBB9179C156F00AE8CAF /* Resources */,
 			);
 			buildRules = (
 			);
@@ -166,26 +221,8 @@
 			);
 			name = BFAutoLayoutDebugger;
 			productName = BFAutoLayoutDebugger;
-			productReference = EC66B0DD179B46CA005FE707 /* libBFAutoLayoutDebugger.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		EC66B0EF179B46CA005FE707 /* BFAutoLayoutDebuggerTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = EC66B104179B46CA005FE707 /* Build configuration list for PBXNativeTarget "BFAutoLayoutDebuggerTests" */;
-			buildPhases = (
-				EC66B0EC179B46CA005FE707 /* Sources */,
-				EC66B0ED179B46CA005FE707 /* Frameworks */,
-				EC66B0EE179B46CA005FE707 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				EC66B0F5179B46CA005FE707 /* PBXTargetDependency */,
-			);
-			name = BFAutoLayoutDebuggerTests;
-			productName = BFAutoLayoutDebuggerTests;
-			productReference = EC66B0F0179B46CA005FE707 /* BFAutoLayoutDebuggerTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
+			productReference = ECA9CBBB179C156F00AE8CAF /* BFAutoLayoutDebugger.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
@@ -202,61 +239,101 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = EC66B0D4179B46CA005FE707;
 			productRefGroup = EC66B0DE179B46CA005FE707 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				EC66B0DC179B46CA005FE707 /* BFAutoLayoutDebugger */,
-				EC66B0EF179B46CA005FE707 /* BFAutoLayoutDebuggerTests */,
+				EC66B10A179B4764005FE707 /* Demo */,
+				ECA9CBBA179C156F00AE8CAF /* BFAutoLayoutDebugger */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		EC66B0EE179B46CA005FE707 /* Resources */ = {
+		EC66B109179B4764005FE707 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC66B0FC179B46CA005FE707 /* InfoPlist.strings in Resources */,
+				EC66B112179B4764005FE707 /* InfoPlist.strings in Resources */,
+				EC66B120179B4764005FE707 /* Images.xcassets in Resources */,
+				EC66B118179B4764005FE707 /* Credits.rtf in Resources */,
+				EC66B11E179B4764005FE707 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECA9CBB9179C156F00AE8CAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECA9CBC2179C156F00AE8CAF /* InfoPlist.strings in Resources */,
+				ECA9CBE8179C15EC00AE8CAF /* BFAutoLayoutDebuggerWindow.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		EC66B0D9179B46CA005FE707 /* Sources */ = {
+		EC66B107179B4764005FE707 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC66B0EB179B46CA005FE707 /* BFAutoLayoutDebugger.m in Sources */,
+				EC66B11B179B4764005FE707 /* AppDelegate.m in Sources */,
+				EC66B114179B4764005FE707 /* main.m in Sources */,
+				ECA9CBF2179C1F6C00AE8CAF /* ColorView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EC66B0EC179B46CA005FE707 /* Sources */ = {
+		ECA9CBB6179C156F00AE8CAF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC66B0FE179B46CA005FE707 /* BFAutoLayoutDebuggerTests.m in Sources */,
+				ECA9CBE7179C15EC00AE8CAF /* BFAutoLayoutDebugger.m in Sources */,
+				ECA9CBEA179C15EC00AE8CAF /* BFAutoLayoutDebuggerWindowController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		EC66B0F5179B46CA005FE707 /* PBXTargetDependency */ = {
+		ECA9CBEE179C169600AE8CAF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = EC66B0DC179B46CA005FE707 /* BFAutoLayoutDebugger */;
-			targetProxy = EC66B0F4179B46CA005FE707 /* PBXContainerItemProxy */;
+			target = ECA9CBBA179C156F00AE8CAF /* BFAutoLayoutDebugger */;
+			targetProxy = ECA9CBED179C169600AE8CAF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		EC66B0FA179B46CA005FE707 /* InfoPlist.strings */ = {
+		EC66B110179B4764005FE707 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				EC66B0FB179B46CA005FE707 /* en */,
+				EC66B111179B4764005FE707 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EC66B116179B4764005FE707 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC66B117179B4764005FE707 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		EC66B11C179B4764005FE707 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC66B11D179B4764005FE707 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		ECA9CBC0179C156F00AE8CAF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECA9CBC1179C156F00AE8CAF /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -334,57 +411,67 @@
 			};
 			name = Release;
 		};
-		EC66B102179B46CA005FE707 /* Debug */ = {
+		EC66B133179B4764005FE707 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "BFAutoLayoutDebugger/BFAutoLayoutDebugger-Prefix.pch";
+				GCC_PREFIX_HEADER = "Demo/Demo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Demo/Demo-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
 		};
-		EC66B103179B46CA005FE707 /* Release */ = {
+		EC66B134179B4764005FE707 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "BFAutoLayoutDebugger/BFAutoLayoutDebugger-Prefix.pch";
+				GCC_PREFIX_HEADER = "Demo/Demo-Prefix.pch";
+				INFOPLIST_FILE = "Demo/Demo-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
 		};
-		EC66B105179B46CA005FE707 /* Debug */ = {
+		ECA9CBD9179C157000AE8CAF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-					"$(inherited)",
-				);
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BFAutoLayoutDebugger/BFAutoLayoutDebugger-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "BFAutoLayoutDebuggerTests/BFAutoLayoutDebuggerTests-Info.plist";
+				INFOPLIST_FILE = "BFAutoLayoutDebugger/BFAutoLayoutDebugger-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = xctest;
+				WRAPPER_EXTENSION = framework;
 			};
 			name = Debug;
 		};
-		EC66B106179B46CA005FE707 /* Release */ = {
+		ECA9CBDA179C157000AE8CAF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-					"$(inherited)",
-				);
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BFAutoLayoutDebugger/BFAutoLayoutDebugger-Prefix.pch";
-				INFOPLIST_FILE = "BFAutoLayoutDebuggerTests/BFAutoLayoutDebuggerTests-Info.plist";
+				INFOPLIST_FILE = "BFAutoLayoutDebugger/BFAutoLayoutDebugger-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = xctest;
+				WRAPPER_EXTENSION = framework;
 			};
 			name = Release;
 		};
@@ -400,21 +487,23 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EC66B101179B46CA005FE707 /* Build configuration list for PBXNativeTarget "BFAutoLayoutDebugger" */ = {
+		EC66B132179B4764005FE707 /* Build configuration list for PBXNativeTarget "Demo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EC66B102179B46CA005FE707 /* Debug */,
-				EC66B103179B46CA005FE707 /* Release */,
+				EC66B133179B4764005FE707 /* Debug */,
+				EC66B134179B4764005FE707 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		EC66B104179B46CA005FE707 /* Build configuration list for PBXNativeTarget "BFAutoLayoutDebuggerTests" */ = {
+		ECA9CBDD179C157000AE8CAF /* Build configuration list for PBXNativeTarget "BFAutoLayoutDebugger" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EC66B105179B46CA005FE707 /* Debug */,
-				EC66B106179B46CA005FE707 /* Release */,
+				ECA9CBD9179C157000AE8CAF /* Debug */,
+				ECA9CBDA179C157000AE8CAF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

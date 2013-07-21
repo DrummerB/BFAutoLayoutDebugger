@@ -14,8 +14,8 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "EC66B0DC179B46CA005FE707"
-               BuildableName = "libBFAutoLayoutDebugger.a"
+               BlueprintIdentifier = "ECA9CBBA179C156F00AE8CAF"
+               BuildableName = "BFAutoLayoutDebugger.framework"
                BlueprintName = "BFAutoLayoutDebugger"
                ReferencedContainer = "container:BFAutoLayoutDebugger.xcodeproj">
             </BuildableReference>
@@ -32,9 +32,29 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "EC66B0EF179B46CA005FE707"
+               BlueprintIdentifier = "ECA9CBCA179C156F00AE8CAF"
                BuildableName = "BFAutoLayoutDebuggerTests.xctest"
                BlueprintName = "BFAutoLayoutDebuggerTests"
+               ReferencedContainer = "container:BFAutoLayoutDebugger.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "EC66B124179B4764005FE707"
+               BuildableName = "DemoTests.xctest"
+               BlueprintName = "DemoTests"
+               ReferencedContainer = "container:BFAutoLayoutDebugger.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "ECA9CBA1179C14F900AE8CAF"
+               BuildableName = "BFAutoLayoutDebugTests.xctest"
+               BlueprintName = "BFAutoLayoutDebugTests"
                ReferencedContainer = "container:BFAutoLayoutDebugger.xcodeproj">
             </BuildableReference>
          </TestableReference>
